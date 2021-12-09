@@ -10,7 +10,7 @@
 			"*": ["./src/*"]
 		},
 		"skipLibCheck": true,
-		"sourceMap": true,
+		"sourceMap": false,
 		"target": "es6"
 	},
 	"exclude": ["node_modules"],

@@ -23,9 +23,9 @@
 		"dev": "ts-node-dev --transpile-only src/index.ts",
 		"build": "tsc",
 		"pack": "ncc build",
-		"lint": "eslint . --ignore-path .gitignore",
-		"prettier": "prettier --write . --ignore-path .gitignore",
-		"prettier:check": "prettier --check . --ignore-path .gitignore",
+		"lint": "eslint .",
+		"prettier": "prettier --write .",
+		"prettier:check": "prettier --check .",
 		"prepare": "husky install",
 		"typescript:check": "tsc --noEmit"
 	},

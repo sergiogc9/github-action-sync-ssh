@@ -1,6 +1,6 @@
 {
 	"name": "@sergiogc9/github-action-sync-ssh",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": "Sergio Gómez Cosgaya (sergiogcosgaya@gmail.com)",
 	"description": "Sync content to remote SSH server",
 	"repository": {

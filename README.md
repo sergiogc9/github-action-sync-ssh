@@ -36,8 +36,9 @@ To create a new version follow these steps:
 2. Update version in package.json and commit with name as `Release VERSION`.
 3. Create a new build using `yarn build` and commit the `dist` folder.
 4. Create a new version tag using `git tag VERSION`.
-5. Set created tag as `latest` tag using `git tag latest`.
-6. Push tags with `git push --tags`.
+5. Set created tag as `latest` tag using `git tag -f latest`.
+6. Push tags with `git push --tags --force`.
+7. Create a release using the github page.
 
 ### Credits
 

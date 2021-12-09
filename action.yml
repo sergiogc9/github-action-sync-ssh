@@ -1,0 +1,32 @@
+name: Sync content to a remote server using SSH
+author: sergiogc9
+description: Sync content to remote SSH server
+inputs:
+  host:
+    description: 'The server host'
+    required: true
+  port:
+    description: 'The server port.'
+    required: true
+  username:
+    description: 'Username for authentication.'
+    required: true
+  password:
+    description: 'Password for user authentication.'
+    required: true
+  local-directory:
+    description: 'The local directory where files to be pushed are located.'
+    required: true
+  remote-directory:
+    description: 'The remote directory in server where files will be pushed.'
+    required: true
+  remove-content:
+    description: 'Boolean to remove the existing content in destination directory. Be careful using this option together with a wrong destination directory.'
+    required: false
+    default: 'False'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+branding:
+  color: 'green'
+  icon: 'file-text'
